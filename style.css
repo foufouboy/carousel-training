@@ -64,6 +64,12 @@ h1 {
     bottom: 0;
     width: 100%;
     padding: 0 50px;
+    opacity: .3;
+    transition: opacity 300ms ease-in-out;
+}
+
+.carousel__slide.current-slide {
+    opacity: 1;
 }
 
 .carousel__button {
